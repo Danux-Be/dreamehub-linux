@@ -17,7 +17,12 @@ python3 -m dreameui --browser    # dans le navigateur par défaut
 ./install-desktop.sh             # ajoute « Dreame UI » au menu des applications
 ```
 
-Dépendances (Arch/CachyOS) : `python-requests python-cryptography python-gobject webkit2gtk-4.1 libsecret`.
+Dépendances (Arch/CachyOS) : `python-requests python-cryptography python-gobject webkit2gtk-4.1 libsecret ffmpeg`.
+
+**Éditeur d'annonces** : le robot télécharge le pack modifié directement depuis ce PC, sur le port TCP **47824**.
+Si un pare-feu est actif (ufw), autorise le robot : `sudo ufw allow from <IP-du-robot> to any port 47824 proto tcp`
+(l'application affiche la commande exacte). Le serveur de transfert n'accepte que l'IP du robot, sur une URL à jeton,
+et se ferme au bout de 15 minutes.
 Pour l'icône dans la barre système KDE : `sudo pacman -S python-pyqt6-webengine` (l'app l'utilise alors automatiquement ;
 fermer la fenêtre la réduit dans la barre système).
 
@@ -38,7 +43,8 @@ Les identifiants sont stockés dans le trousseau du système (KWallet / GNOME Ke
 | Consommables (% + heures, remise à zéro), statistiques | ✅ |
 | Onglet Réglages : volume, Ne pas déranger, CleanGenius, humidité, température d'eau, séchage… | ✅ (selon ce que l'appareil signale) |
 | Caméra en direct | ❌ flux Alibaba LinkVisual non documenté publiquement |
-| Éditeur d'annonces, Tailscale, « aller à un point » | ❌ pas encore porté |
+| Éditeur d'annonces (écoute, remplacement par ton fichier, installation sur le robot) | ✅ ffmpeg requis |
+| Tailscale, « aller à un point » | ❌ pas encore porté |
 
 ## Structure
 

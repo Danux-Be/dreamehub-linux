@@ -12,7 +12,7 @@ from .catalog import product_image
 from .cloud import CloudError, NotAuthenticated
 from .device import DeviceService, ServiceError, require_ack
 from .maps import HistoryService, MapService, content_type, obstacle_image
-from .voice import VoiceService
+from .voice import TransferHost, VoiceEditor, VoiceService, find_robot_ip, firewall_hint
 
 ROOM_TYPES = {0: "Pièce", 1: "Salon", 2: "Chambre principale", 3: "Bureau", 4: "Cuisine", 5: "Salle à manger",
               6: "Salle de bain", 7: "Balcon", 8: "Couloir", 9: "Buanderie", 10: "Dressing", 11: "Salle de réunion",
@@ -49,6 +49,8 @@ class AppAPI:
         self.map_service: MapService | None = None
         self.history_service: HistoryService | None = None
         self.voice_service: VoiceService | None = None
+        self.voice_editor: VoiceEditor | None = None
+        self.voice_host: TransferHost | None = None
         self.map_ready = False
         self.viewing_history = False
         self.last_map: dict | None = None
@@ -77,7 +79,8 @@ class AppAPI:
             self.boot = {"busy": False, "stage": "login_required", "error": str(error)}
 
     def _reset_services(self):
-        self.map_service = self.history_service = self.voice_service = None
+        self._close_voice_host()
+        self.map_service = self.history_service = self.voice_service = self.voice_editor = None
         self.map_ready = self.viewing_history = False
         self.last_map = None
 
@@ -114,6 +117,34 @@ class AppAPI:
         if self.voice_service is None or self.voice_service.model != device.model:
             self.voice_service = VoiceService(device.model)
         return self.voice_service
+
+    def _editor(self) -> VoiceEditor:
+        voice = self._voice()
+        if self.voice_editor is None or self.voice_editor.service is not voice:
+            self.voice_editor = VoiceEditor(voice)
+        return self.voice_editor
+
+    def _close_voice_host(self):
+        host, self.voice_host = getattr(self, "voice_host", None), None
+        if host:
+            host.close()
+
+    def _install_custom_voice(self) -> dict:
+        device = self._device()
+        data, digest, base = self._editor().build()
+        robot_ip = find_robot_ip(device)
+        self._close_voice_host()
+        host = TransferHost(data, robot_ip)
+        url = host.start()
+        self.voice_host = host
+        value = json.dumps({"id": base, "md5": digest, "size": len(data), "url": url}, sort_keys=True, separators=(",", ":"))
+        try:
+            require_ack(self.service.cloud.rpc(device, "set_properties",
+                                               [{"did": device.id, "siid": 7, "piid": 4, "value": value}]))
+        except Exception:
+            self._close_voice_host()
+            raise
+        return {"ok": True, "changed_count": len(self.voice_editor.replacements), "firewall": firewall_hint(robot_ip)}
 
     def _current_map(self) -> dict:
         result = self._maps().current(self._device())
@@ -165,6 +196,14 @@ class AppAPI:
     def handle(self, method: str, path: str, body: dict, binary: bytes | None = None) -> Response:
         try:
             plain = path.split("?", 1)[0]
+            audio = re.fullmatch(r"/api/voice/editor/audio/(\d{1,6})", plain)
+            if method == "GET" and audio:
+                return Response(data=self._editor().audio(audio.group(1)), content_type="audio/ogg")
+            if method == "POST" and plain == "/api/voice/editor/replace":
+                sound = re.search(r"[?&]id=(\d{1,6})(?:&|$)", path)
+                if not sound or binary is None:
+                    raise ApiError("Fichier audio illisible.")
+                return Response(self._editor().replace(sound.group(1), binary))
             match = re.fullmatch(r"/api/map/obstacle/([A-Za-z0-9_.:-]{1,128})/image", plain)
             if method == "GET" and match:
                 device = self._device()
@@ -200,8 +239,13 @@ class AppAPI:
                 packs = sorted(self._voice().packs().values(), key=lambda p: p.id)
                 return {"packs": [{"id": p.id, "name": p.name} for p in packs],
                         "current": self.service.cached.get("voice_language")}
-            if path.startswith("/api/voice/"):
-                raise ApiError("L'éditeur d'annonces n'est pas encore disponible dans la version Linux.")
+            if path == "/api/voice/editor":
+                return self._editor().catalog(self.service.cached.get("voice_language"))
+            if path == "/api/voice/editor/transfer":
+                status = self.voice_host.status() if self.voice_host else {"active": False}
+                if self.voice_host:
+                    status["firewall"] = firewall_hint(self.voice_host.robot_ip)
+                return status
             raise ApiError("Fonction non disponible dans cette version.")
         if method != "POST":
             raise ApiError("Méthode de requête invalide.")
@@ -272,8 +316,14 @@ class AppAPI:
             require_ack(self.service.cloud.rpc(device, "set_properties",
                                                [{"did": device.id, "siid": 7, "piid": 4, "value": value}]))
             return {"ok": True}
-        if path.startswith("/api/voice/"):
-            raise ApiError("L'éditeur d'annonces n'est pas encore disponible dans la version Linux.")
+        if path == "/api/voice/editor/reset":
+            sound = body.get("id")
+            if not isinstance(sound, str):
+                raise ApiError("Aucune annonce sélectionnée.")
+            return {"ok": True, "changed_count": self._editor().reset(sound)}
+        if path == "/api/voice/editor/install":
+            self._require_control()
+            return self._install_custom_voice()
         if path == "/api/go-to":
             raise ApiError("L'envoi vers un point n'est pas vérifié pour ce modèle.")
         raise ApiError("Fonction non disponible dans cette version.")
@@ -340,6 +390,7 @@ class AppAPI:
         return {"ok": True}
 
     def shutdown(self):
+        self._close_voice_host()
         try:
             self.service.logout()
         except Exception:  # noqa: BLE001

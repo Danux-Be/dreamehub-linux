@@ -1,0 +1,257 @@
+0|Mélodie de démarrage
+1|Configuration réseau en attente|En attente de la configuration réseau.
+2|Connexion au Wi-Fi impossible|Impossible de se connecter au réseau Wi-Fi. Vérifiez le mot de passe Wi-Fi et réessayez plus tard.
+3|Connexion au serveur impossible|Impossible de se connecter au serveur. Vérifiez votre réseau local et réessayez plus tard.
+4|Sortie du mode configuration réseau|Le robot a quitté le mode de configuration réseau.
+5|Réseau connecté|Réseau connecté avec succès.
+6|Échec de connexion au réseau|La connexion au réseau a échoué. Réessayez plus tard.
+7|Démarrage du nettoyage
+8|Démarrage du nettoyage localisé
+9|Démarrage du nettoyage programmé
+10|Reprise du nettoyage
+11|En pause
+12|Tâche de nettoyage terminée
+13|Retour à la base pour recharge|Retour à la base pour se recharger.
+14|Batterie faible : recharge puis reprise|Batterie faible, retour à la base pour recharger. Le robot reprendra le nettoyage une fois rechargé.
+17|Placer le robot sur la base pour le recharger|Veuillez placer le robot sur sa base pour le recharger.
+18|En charge
+19|Retirer le robot de la base avant extinction|Veuillez retirer le robot de sa base avant de l'éteindre.
+20|Batterie faible
+21|Batterie faible : extinction|Batterie faible, le robot va s'éteindre.
+25|Batterie faible : tâche programmée impossible|Batterie faible, le nettoyage programmé ne peut pas être effectué.
+26|Réinitialisation aux paramètres d'usine
+27|Mise à jour en cours|Mise à jour en cours. Cela prend environ 5 minutes. N'éteignez pas le robot et ne lancez pas de nettoyage.
+28|Mise à jour réussie
+29|Échec de la mise à jour|La mise à jour a échoué. Réessayez plus tard.
+30|Localisation, patientez|Localisation en cours. Veuillez patienter.
+31|Échec de la localisation|La localisation a échoué. Carte invalide. Le robot va démarrer un nouveau nettoyage.
+34|Bac à poussière absent|Le bac à poussière n'est pas installé. Veuillez l'installer.
+35|Erreur de la brosse principale|Erreur de la brosse principale. Veuillez la vérifier et la nettoyer.
+36|Erreur de la brosse latérale|Erreur de la brosse latérale. Veuillez la vérifier et la nettoyer.
+37|Erreur de la roue droite|Erreur de la roue droite. Veuillez la vérifier et la nettoyer.
+38|Erreur de la roue gauche|Erreur de la roue gauche. Veuillez la vérifier et la nettoyer.
+39|Nettoyer les capteurs de vide|Les roues ne touchent pas le sol. Essuyez les capteurs de vide, repositionnez le robot et relancez-le.
+40|Robot coincé|Le robot est coincé. Veuillez retirer les obstacles autour de lui.
+41|Roues suspendues|Les roues ne touchent pas le sol. Repositionnez le robot et relancez-le.
+42|Vérifier et nettoyer le filtre|Veuillez vérifier et nettoyer le filtre.
+43|Erreur du pare-chocs|Erreur du pare-chocs. Tapotez-le doucement pour vérifier qu'il revient en place.
+44|Erreur|Erreur. Consultez le manuel d'utilisation ou contactez le service client.
+45|Je suis là
+46|Robot et téléphone connectés|Le robot et le téléphone sont connectés. Revenez dans l'application pour voir le résultat.
+47|Début de la charge
+48|Batterie faible : retour à la base|Batterie faible, retour à la base de recharge.
+50|Erreur de charge|Erreur de charge. Veuillez nettoyer les contacts de charge.
+52|Robot incliné|Le robot est incliné. Placez-le sur une surface plane pour le redémarrer.
+54|Localisé : reprise du nettoyage|Localisation réussie. Reprise du nettoyage.
+55|Localisé : retour à la base|Localisation réussie. Poursuite du retour à la base.
+56|Nettoyage des pièces sélectionnées
+57|Nettoyage de zone
+58|Reprise de la tâche de nettoyage
+59|Lavage terminé|Lavage terminé. Pensez à retirer le réservoir d'eau.
+61|Démarrage du lavage
+62|Nettoyage télécommandé
+64|Carte invalide : retour à la base|La localisation a échoué. Carte invalide. Le robot retourne à sa base.
+65|Poursuite du retour à la base
+66|Filtre usé|Le filtre est usé. Pensez à le remplacer.
+67|Brosse latérale usée|La brosse latérale est usée. Pensez à la remplacer.
+68|Brosse principale usée|La brosse principale est usée. Pensez à la remplacer.
+71|Erreur du capteur laser|Vérifiez que le capteur de distance laser n'est pas bloqué.
+72|Couvercle du LDS coincé|Vérifiez que le couvercle du capteur laser n'est pas coincé.
+73|Erreur du capteur de bord|Erreur du capteur de bord. Veuillez le vérifier et le nettoyer.
+75|Filtre humide ou obstrué|Le filtre n'est peut-être pas sec ou il est obstrué.
+77|Démarrer hors des tapis|Veuillez démarrer le robot sur une zone sans tapis.
+81|Erreur du capteur à ultrasons|Erreur du capteur de tapis. Redémarrez le robot ou contactez le service client.
+82|Démarrage de la cartographie
+83|Reprise de la cartographie
+84|Cartographie terminée
+85|Localisé : reprise de la cartographie|Localisation réussie. Reprise de la cartographie.
+86|Non localisé : nouvelle cartographie|La localisation a échoué. Redémarrage de la cartographie.
+87|Batterie faible : retour à la base|Batterie faible, retour à la base de recharge.
+91|Réservoir d'eau propre absent|Le réservoir d'eau propre n'est pas installé. Veuillez l'installer.
+93|Eau propre insuffisante|Le niveau du réservoir d'eau propre est bas. Veuillez ajouter de l'eau.
+97|Sac à poussière absent|Veuillez installer le sac à poussière.
+102|Sac plein ou conduit obstrué|Le sac à poussière est plein ou le conduit d'air est obstrué. Remplacez le sac ou nettoyez le conduit.
+105|Démarrage du nettoyage
+106|Lavage des serpillières|Démarrage du lavage des serpillières.
+107|Séchage des serpillières|Démarrage du séchage des serpillières.
+108|Niveau d'eau anormal du bac de lavage|Le niveau d'eau du bac de lavage est anormal. Veuillez le nettoyer.
+109|Anomalie du réservoir d'eau sale|Erreur du réservoir d'eau sale. Vérifiez qu'il est installé et vide.
+110|Démarrage du vidage automatique
+111|Serpillières absentes|Les serpillières ne sont pas installées. Veuillez les installer avant de continuer.
+112|Replacer le robot sur la station de lavage|Replacez le robot sur sa station autonettoyante avant utilisation.
+113|Tâche terminée|Tâche terminée. Pensez à vider le réservoir d'eau sale.
+114|Serpillières installées
+115|Serpillières retirées
+116|Sécurité enfant activée|Sécurité enfant activée, les boutons sont verrouillés.
+117|Sécurité enfant désactivée|Sécurité enfant désactivée, les boutons sont déverrouillés.
+118|Boutons verrouillés|Les boutons sont verrouillés. Maintenez le bouton de la base enfoncé pour les déverrouiller.
+126|Démarrage du nettoyage
+127|Démarrage du nettoyage localisé
+128|Démarrage du lavage localisé
+129|Démarrage du nettoyage programmé
+130|Démarrage du lavage programmé
+133|Nettoyage des pièces sélectionnées
+134|Lavage des pièces sélectionnées
+135|Nettoyage de zone
+136|Lavage de zone
+137|Reprise du nettoyage
+138|Reprise du lavage
+139|Retour à la base pour autonettoyage|Retour à la base.
+140|Nouvel environnement détecté|Nouvel environnement détecté, retour à la station autonettoyante.
+142|Serpillière usée|La serpillière est usée. Pensez à la remplacer.
+143|Nettoyage terminé
+144|Lavage terminé
+145|Localisé : reprise du nettoyage|Localisation réussie. Reprise du nettoyage.
+146|Localisé : reprise du lavage|Localisation réussie. Reprise du lavage.
+148|Retour à la base pour autonettoyage
+149|Cible inaccessible : obstacle|Impossible d'atteindre la zone indiquée. Essayez de retirer les obstacles sur le trajet.
+150|Cible inaccessible : zone interdite|Impossible d'atteindre la zone indiquée. Essayez de supprimer les zones interdites sur le trajet.
+151|Trajet bloqué : obstacle|Trajet bloqué. Essayez de retirer les obstacles autour du robot.
+152|Trajet bloqué : zone interdite|Trajet bloqué. Supprimez les zones interdites ou sortez le robot de cette zone.
+153|Robot dans une zone interdite|Le robot a été détecté dans une zone interdite. Veuillez l'en sortir.
+156|Support de serpillière absent|Le support de serpillière n'est pas installé.
+162|Caméra activée
+163|Surveillance caméra
+164|Fin de tâche
+166|Retirer les corps étrangers de la serpillière|Veuillez retirer les corps étrangers enroulés dans la serpillière.
+169|Séchage des serpillières terminé
+171|Reconnaissance IA activée|Évitement intelligent des obstacles activé.
+172|Reconnaissance IA désactivée|Évitement intelligent des obstacles désactivé.
+173|Remplacer le stérilisateur à ions d'argent|Veuillez remplacer le module stérilisateur à ions d'argent.
+177|Départ de la base|Le robot quitte la base.
+179|Serpillière nettoyée, eau insuffisante|Serpillière nettoyée. Eau propre insuffisante : remplissez le réservoir d'eau propre et videz le réservoir d'eau sale.
+181|Eau insuffisante|Eau insuffisante. Veuillez remplir le réservoir d'eau propre.
+186|Vérifier le réservoir d'eau propre|Veuillez vérifier le réservoir d'eau propre.
+187|Environ 5 à 10 minutes|Cela prendra environ 5 à 10 minutes.
+188|Installation automatique activée
+200|Mélodie d'extinction
+244|Flacon de détergent installé
+255|Évitement intelligent requis|Désolé, cette tâche nécessite l'évitement intelligent des obstacles.
+257|Sortie de la surveillance caméra
+258|Patrouille démarrée|Patrouille autolocalisée démarrée.
+259|En route vers la position cible|Localisé. En route vers la position indiquée.
+260|Patrouille en cours|Reprise de la patrouille autolocalisée.
+261|Poursuite vers la position cible|Localisé. Poursuite vers la position indiquée.
+262|Échec de l'autolocalisation
+266|Remplacer le détergent
+267|Nettoyer les capteurs
+269|Réessayer après la tâche en cours|Veuillez réessayer une fois la tâche en cours terminée.
+274|Son de notification
+280|Démarrage du nettoyage personnalisé
+281|Vidage automatique en cours|Le robot se vide automatiquement. Réessayez plus tard.
+282|Lavage de la serpillière en cours|Le robot lave sa serpillière. Réessayez plus tard.
+283|Robot hors de la base|Le robot n'est pas sur sa base. Réessayez plus tard.
+293|Recherche activée
+294|Recherche désactivée
+296|Erreur du réservoir d'eau sale|Erreur du réservoir d'eau sale. Vérifiez s'il est plein.
+297|Détergent installé : remise à zéro|Flacon de détergent installé. S'il est neuf, remettez le compteur à zéro dans l'application.
+298|Nettoyage du bac de lavage
+299|Module de dosage du détergent installé|Flacon de détergent et module de dosage automatique installés.
+311|Serpillières retirées
+315|Serpillière absente de la station|La serpillière n'est pas dans la station. Placez-la dans la station puis réessayez, ou installez-la à la main.
+316|Serpillière déjà dans la station|La serpillière est déjà dans la station.
+318|Serpillière nettoyée
+319|Retrait des serpillières impossible|Les serpillières n'ont pas pu être retirées. Retirez-les à la main.
+320|Installation des serpillières impossible|Les serpillières n'ont pas pu être installées. Installez-les à la main.
+321|Lavage intensif des taches|Démarrage du lavage intensif des taches.
+329|Autotest démarré|Démarrage de l'autotest, ne m'éloignez pas de la station.
+330|Autotest en cours|Réessayez une fois l'autotest terminé.
+331|Autotest : aucune erreur|Aucune erreur détectée, vous pouvez utiliser l'appareil en toute sécurité.
+332|Autotest : erreur détectée|Une erreur a été détectée, consultez l'application pour les détails.
+341|Je t'ai trouvé|Je t'ai trouvé, je commence à te suivre. Dis « arrête de me suivre » pour terminer.
+342|Où es-tu ?|Où es-tu ? Place-toi environ 1,5 mètre devant moi.
+343|Je t'ai perdu|Je t'ai perdu, tu marches trop vite. Place-toi environ 1,5 mètre devant moi et attends que je te retrouve.
+349|Vérifier que la station est allumée|Vérifiez que la station est allumée, puis placez le robot dessus pour lancer l'activation.
+350|Activation de la station
+351|Station activée
+352|Échec de l'activation de la station|L'activation de la station a échoué. Ouvrez l'application pour voir la solution.
+355|Eau propre faible|Niveau d'eau bas, veuillez remplir le réservoir d'eau propre.
+356|Défaut toujours présent|Le défaut persiste, la tâche programmée a été annulée.
+360|Vidange du réservoir du robot
+361|Vidange du réservoir du robot terminée
+362|Serpillière absente : aspiration seule|La serpillière n'est pas en place, le robot effectuera une aspiration à la place.
+363|Aspiration terminée, début du lavage|Aspiration terminée. Le robot va commencer le lavage.
+364|Réglage du code d'activation vidéo|Démarrage du réglage du code d'activation vidéo.
+365|Vidéo en direct désactivée|La fonction de vidéo en direct est désactivée.
+371|Retirer le bac de lavage|Veuillez retirer le bac de lavage.
+372|Écoulement de l'eau propre
+373|Fin de l'écoulement d'eau propre|L'écoulement d'eau propre est terminé. Attendez 10 secondes que la saleté soit ramollie, puis nettoyez la station.
+374|Nettoyer le fond de la station|Nettoyez le fond de la station avec une brosse ou un chiffon dans les 20 secondes. Les déchets seront ensuite pompés automatiquement.
+375|Pousser les saletés vers la pompe|Poussez les saletés vers l'orifice de pompage, le pompage dure 30 secondes.
+376|Pompage terminé|Pompage terminé. Nettoyez le bac de lavage séparément puis remettez-le en place.
+377|Configuration réseau impossible|Impossible de configurer le réseau. Contactez le service client.
+378|Mot de passe Wi-Fi incorrect|Mot de passe incorrect, connexion au réseau impossible. Reconfigurez le réseau.
+379|Wi-Fi introuvable, utiliser le 2,4 GHz|Réseau sans fil introuvable. Connectez-vous à la bande 2,4 GHz et rapprochez le robot du routeur avant de réessayer.
+380|Adresse IP non obtenue|Impossible d'obtenir une adresse IP, vérifiez les réglages du routeur.
+381|Serveur EMQ injoignable|Impossible de se connecter au serveur EMQ. Contactez le service client.
+382|Connexion au réseau impossible|Impossible de se connecter au réseau. Vérifiez qu'il fonctionne normalement.
+383|Configuration réseau impossible|Impossible de configurer le réseau. Contactez le service client.
+384|Plus d'eau dans l'arrivée automatique|Pas d'eau dans le réservoir d'eau propre ni dans le dispositif de vidange de l'arrivée d'eau automatique.
+385|Connexion au réseau
+388|Robot en zone restreinte|Zone restreinte : déplacez le robot dans une zone autorisée et réessayez.
+389|Abaissement du LDS impossible|Impossible d'abaisser le capteur laser. Vérifiez qu'il n'est pas coincé.
+390|Levée du LDS impossible|Impossible de relever le capteur laser. Vérifiez qu'il n'est pas coincé.
+391|Placer dans un espace dégagé|Placez-moi dans un espace dégagé avant de lancer la tâche.
+396|Vidange du module d'eau|Démarrage de la vidange du module d'alimentation et d'évacuation d'eau, environ 3 minutes.
+397|Vidange haute et basse terminée
+398|Cartographie terminée : retour à la base|Cartographie terminée. Vérifiez la carte dans l'application et ramenez-moi à la base.
+399|Test terminé : retour à la base|Tâche terminée. Ramenez-moi à la base.
+400|Nettoyage de la station terminé
+401|Ramener à la station pour autonettoyage|Ramenez-moi à la base et lancez l'autonettoyage.
+424|Échec de la localisation|Localisation impossible, placez-moi dans un espace dégagé et relancez la tâche.
+426|J'ai glissé et je suis coincé|J'ai glissé et je suis coincé, je continue d'essayer de me dégager.
+433|Démarrage du nettoyage supplémentaire
+434|Nettoyage supplémentaire terminé|Nettoyage supplémentaire terminé, reprise du nettoyage initial.
+435|Sortie de la zone actuelle
+436|Son d'alerte
+437|Problème résolu : reprise|Problème résolu, appuyez sur démarrer pour reprendre le nettoyage.
+438|Pare-chocs coincé|Le pare-chocs est coincé. Tapotez-le doucement pour qu'il revienne en place.
+439|Couvercle du LDS coincé|Le couvercle du capteur laser est coincé, tapotez-le doucement pour qu'il revienne en place.
+440|Roues dans le vide|Les roues du robot sont suspendues, placez-le dans un espace dégagé et relancez la tâche.
+441|Brosse principale emmêlée|Quelque chose est enroulé autour de la brosse principale, retirez-la et nettoyez-la avant de la remettre.
+442|Brosse latérale emmêlée|Quelque chose est enroulé autour de la brosse latérale, retirez-la et nettoyez-la avant de la remettre.
+443|Roues principales emmêlées|Quelque chose est enroulé autour des roues principales, veuillez les nettoyer.
+444|Placer le robot dans un espace dégagé|Placez le robot dans un espace dégagé avant de lancer la tâche.
+445|Serpillière tombée|La serpillière est tombée, cherchez-la autour du robot et remettez-la en place.
+446|Support de serpillière emmêlé|Quelque chose est enroulé autour du support de serpillière, retirez-le et nettoyez-le.
+447|Station hors tension|La station n'est pas alimentée, vérifiez-la et remettez le robot en charge.
+448|Réservoir d'eau sale absent|Le réservoir d'eau sale n'est pas installé, mettez-le en place avant de lancer la tâche.
+449|Démarrage impossible sur un tapis|Impossible de démarrer sur un tapis. Placez le robot sur un sol dur et relancez la tâche.
+450|Démarrage impossible en zone interdite|Impossible de démarrer dans une zone interdite. Déplacez le robot et relancez la tâche.
+451|Démarrage impossible en zone privée|Impossible de démarrer dans une zone privée. Déplacez le robot et relancez la tâche.
+452|Erreur du capteur de tapis|Erreur du capteur de tapis : retournez le robot, essuyez le trou rond blanc dessous et redémarrez-le.
+453|Erreur du capteur de bord|Erreur du capteur de bord : essuyez le côté droit du robot et relancez la tâche.
+454|Eau propre insuffisante|Le réservoir d'eau propre ne contient pas assez d'eau. Remplissez-le rapidement.
+455|Réservoir d'eau propre mal placé|Le réservoir d'eau propre n'est pas en place. Veuillez l'installer correctement.
+456|Réservoir d'eau sale plein ou absent|Le réservoir d'eau sale est plein ou absent, veuillez le vérifier.
+457|Réservoir d'eau sale plein ou absent|Le réservoir d'eau sale est plein ou absent, veuillez le vérifier.
+458|Sac à poussière mal placé|Le sac à poussière n'est pas en place, vérifiez-le et installez-le correctement.
+459|Support de serpillière mal placé|Le support de serpillière n'est pas en place, vérifiez-le et installez-le correctement.
+460|Désodorisant usé|Le désodorisant du réservoir d'eau sale est usé, remplacez-le rapidement.
+463|Bienvenue dans votre robot Dreame|Bienvenue dans votre robot aspirateur Dreame. Pour plus de fonctions, ouvrez le capot, scannez le QR code et téléchargez l'application Dreamehome.
+464|Placer sur la station avant la tâche|Pour réussir les tâches suivantes, replacez le robot sur la station avant de démarrer. L'installation est réussie quand vous entendez « Début de la charge ».
+465|Placer sur la station avant la tâche|Replacez le robot sur la station avant de démarrer. L'installation est réussie quand vous entendez « Début de la charge ».
+466|Préparer les pièces avant le nettoyage|Ouvrez les portes des pièces à nettoyer et rangez les objets au sol.
+467|Placer sur la station avant la cartographie|Replacez le robot sur la station, puis relancez la cartographie.
+468|Confirmer la carte dans l'application|Veuillez confirmer les détails de la carte dans l'application.
+478|Reprise après lavage de la serpillière|Après le lavage de la serpillière, le robot reprend le nettoyage là où il s'était arrêté.
+479|Relancer la tâche|Tout est prêt, relancez votre tâche.
+480|Ajouter de l'eau pour la prochaine tâche|Mettez suffisamment d'eau dans le réservoir d'eau propre pour les prochaines tâches.
+488|Son de notification
+516|Recherche de l'animal|Démarrage de la recherche de votre animal.
+517|Animal trouvé|Votre animal a été trouvé, retour à la base.
+518|Animal introuvable : retour à la base|Animal introuvable, retour à la base pour recharge.
+632|Changement de langue|Changement de langue en cours, environ 30 secondes.
+636|Lavage auto de la serpillière sale|La serpillière est sale, ramenez le robot à la base pour un lavage automatique.
+638|Reprise du vidage automatique
+639|Installer le filtre du bac de lavage|Veuillez installer le filtre du bac de lavage.
+640|Échec du changement de langue|Le changement de langue a échoué. Veuillez réinitialiser.
+658|Anticalcaire expiré|L'anticalcaire a expiré, remplacez-le rapidement.
+661|Nettoyage du bac de lavage|Démarrage du nettoyage du bac de lavage, environ 45 à 60 secondes.
+662|Production d'eau électrolysée|Préparation d'eau électrolysée pour nettoyer la serpillière.
+663|Niveau d'eau anormal du bac de lavage|Niveau d'eau anormal détecté dans le bac de lavage. Nettoyez son filtre et son conduit, puis relancez la tâche.
+673|Pieds rétractables emmêlés|Quelque chose est peut-être enroulé autour des pieds rétractables. Nettoyez-les avant de lancer une tâche.
+677|Cible inaccessible : seuil ou zone|Impossible d'atteindre la zone indiquée. Supprimez les zones interdites ou seuils infranchissables sur le trajet.
+678|Trajet bloqué : seuil ou zone|Trajet de nettoyage bloqué : supprimez les zones interdites ou seuils infranchissables sur la carte, ou sortez le robot de la zone.
+679|Robot bloqué sur un seuil ou en zone interdite|Le robot est bloqué dans une zone interdite ou sur un seuil infranchissable. Sortez-le de cette zone.
+681|D'accord, je reprends le nettoyage

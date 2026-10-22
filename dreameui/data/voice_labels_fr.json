@@ -1,0 +1,1030 @@
+{
+"0": {
+"name": "Mélodie de démarrage",
+"transcript": "[Mélodie de démarrage]"
+},
+"1": {
+"name": "Configuration réseau en attente",
+"transcript": "En attente de la configuration réseau."
+},
+"2": {
+"name": "Connexion au Wi-Fi impossible",
+"transcript": "Impossible de se connecter au réseau Wi-Fi. Vérifiez le mot de passe Wi-Fi et réessayez plus tard."
+},
+"3": {
+"name": "Connexion au serveur impossible",
+"transcript": "Impossible de se connecter au serveur. Vérifiez votre réseau local et réessayez plus tard."
+},
+"4": {
+"name": "Sortie du mode configuration réseau",
+"transcript": "Le robot a quitté le mode de configuration réseau."
+},
+"5": {
+"name": "Réseau connecté",
+"transcript": "Réseau connecté avec succès."
+},
+"6": {
+"name": "Échec de connexion au réseau",
+"transcript": "La connexion au réseau a échoué. Réessayez plus tard."
+},
+"7": {
+"name": "Démarrage du nettoyage",
+"transcript": "Démarrage du nettoyage."
+},
+"8": {
+"name": "Démarrage du nettoyage localisé",
+"transcript": "Démarrage du nettoyage localisé."
+},
+"9": {
+"name": "Démarrage du nettoyage programmé",
+"transcript": "Démarrage du nettoyage programmé."
+},
+"10": {
+"name": "Reprise du nettoyage",
+"transcript": "Reprise du nettoyage."
+},
+"11": {
+"name": "En pause",
+"transcript": "En pause."
+},
+"12": {
+"name": "Tâche de nettoyage terminée",
+"transcript": "Tâche de nettoyage terminée."
+},
+"13": {
+"name": "Retour à la base pour recharge",
+"transcript": "Retour à la base pour se recharger."
+},
+"14": {
+"name": "Batterie faible : recharge puis reprise",
+"transcript": "Batterie faible, retour à la base pour recharger. Le robot reprendra le nettoyage une fois rechargé."
+},
+"17": {
+"name": "Placer le robot sur la base pour le recharger",
+"transcript": "Veuillez placer le robot sur sa base pour le recharger."
+},
+"18": {
+"name": "En charge",
+"transcript": "En charge."
+},
+"19": {
+"name": "Retirer le robot de la base avant extinction",
+"transcript": "Veuillez retirer le robot de sa base avant de l'éteindre."
+},
+"20": {
+"name": "Batterie faible",
+"transcript": "Batterie faible."
+},
+"21": {
+"name": "Batterie faible : extinction",
+"transcript": "Batterie faible, le robot va s'éteindre."
+},
+"25": {
+"name": "Batterie faible : tâche programmée impossible",
+"transcript": "Batterie faible, le nettoyage programmé ne peut pas être effectué."
+},
+"26": {
+"name": "Réinitialisation aux paramètres d'usine",
+"transcript": "Réinitialisation aux paramètres d'usine."
+},
+"27": {
+"name": "Mise à jour en cours",
+"transcript": "Mise à jour en cours. Cela prend environ 5 minutes. N'éteignez pas le robot et ne lancez pas de nettoyage."
+},
+"28": {
+"name": "Mise à jour réussie",
+"transcript": "Mise à jour réussie."
+},
+"29": {
+"name": "Échec de la mise à jour",
+"transcript": "La mise à jour a échoué. Réessayez plus tard."
+},
+"30": {
+"name": "Localisation, patientez",
+"transcript": "Localisation en cours. Veuillez patienter."
+},
+"31": {
+"name": "Échec de la localisation",
+"transcript": "La localisation a échoué. Carte invalide. Le robot va démarrer un nouveau nettoyage."
+},
+"34": {
+"name": "Bac à poussière absent",
+"transcript": "Le bac à poussière n'est pas installé. Veuillez l'installer."
+},
+"35": {
+"name": "Erreur de la brosse principale",
+"transcript": "Erreur de la brosse principale. Veuillez la vérifier et la nettoyer."
+},
+"36": {
+"name": "Erreur de la brosse latérale",
+"transcript": "Erreur de la brosse latérale. Veuillez la vérifier et la nettoyer."
+},
+"37": {
+"name": "Erreur de la roue droite",
+"transcript": "Erreur de la roue droite. Veuillez la vérifier et la nettoyer."
+},
+"38": {
+"name": "Erreur de la roue gauche",
+"transcript": "Erreur de la roue gauche. Veuillez la vérifier et la nettoyer."
+},
+"39": {
+"name": "Nettoyer les capteurs de vide",
+"transcript": "Les roues ne touchent pas le sol. Essuyez les capteurs de vide, repositionnez le robot et relancez-le."
+},
+"40": {
+"name": "Robot coincé",
+"transcript": "Le robot est coincé. Veuillez retirer les obstacles autour de lui."
+},
+"41": {
+"name": "Roues suspendues",
+"transcript": "Les roues ne touchent pas le sol. Repositionnez le robot et relancez-le."
+},
+"42": {
+"name": "Vérifier et nettoyer le filtre",
+"transcript": "Veuillez vérifier et nettoyer le filtre."
+},
+"43": {
+"name": "Erreur du pare-chocs",
+"transcript": "Erreur du pare-chocs. Tapotez-le doucement pour vérifier qu'il revient en place."
+},
+"44": {
+"name": "Erreur",
+"transcript": "Erreur. Consultez le manuel d'utilisation ou contactez le service client."
+},
+"45": {
+"name": "Je suis là",
+"transcript": "Je suis là."
+},
+"46": {
+"name": "Robot et téléphone connectés",
+"transcript": "Le robot et le téléphone sont connectés. Revenez dans l'application pour voir le résultat."
+},
+"47": {
+"name": "Début de la charge",
+"transcript": "Début de la charge."
+},
+"48": {
+"name": "Batterie faible : retour à la base",
+"transcript": "Batterie faible, retour à la base de recharge."
+},
+"50": {
+"name": "Erreur de charge",
+"transcript": "Erreur de charge. Veuillez nettoyer les contacts de charge."
+},
+"52": {
+"name": "Robot incliné",
+"transcript": "Le robot est incliné. Placez-le sur une surface plane pour le redémarrer."
+},
+"54": {
+"name": "Localisé : reprise du nettoyage",
+"transcript": "Localisation réussie. Reprise du nettoyage."
+},
+"55": {
+"name": "Localisé : retour à la base",
+"transcript": "Localisation réussie. Poursuite du retour à la base."
+},
+"56": {
+"name": "Nettoyage des pièces sélectionnées",
+"transcript": "Nettoyage des pièces sélectionnées."
+},
+"57": {
+"name": "Nettoyage de zone",
+"transcript": "Nettoyage de zone."
+},
+"58": {
+"name": "Reprise de la tâche de nettoyage",
+"transcript": "Reprise de la tâche de nettoyage."
+},
+"59": {
+"name": "Lavage terminé",
+"transcript": "Lavage terminé. Pensez à retirer le réservoir d'eau."
+},
+"61": {
+"name": "Démarrage du lavage",
+"transcript": "Démarrage du lavage."
+},
+"62": {
+"name": "Nettoyage télécommandé",
+"transcript": "Nettoyage télécommandé."
+},
+"64": {
+"name": "Carte invalide : retour à la base",
+"transcript": "La localisation a échoué. Carte invalide. Le robot retourne à sa base."
+},
+"65": {
+"name": "Poursuite du retour à la base",
+"transcript": "Poursuite du retour à la base."
+},
+"66": {
+"name": "Filtre usé",
+"transcript": "Le filtre est usé. Pensez à le remplacer."
+},
+"67": {
+"name": "Brosse latérale usée",
+"transcript": "La brosse latérale est usée. Pensez à la remplacer."
+},
+"68": {
+"name": "Brosse principale usée",
+"transcript": "La brosse principale est usée. Pensez à la remplacer."
+},
+"71": {
+"name": "Erreur du capteur laser",
+"transcript": "Vérifiez que le capteur de distance laser n'est pas bloqué."
+},
+"72": {
+"name": "Couvercle du LDS coincé",
+"transcript": "Vérifiez que le couvercle du capteur laser n'est pas coincé."
+},
+"73": {
+"name": "Erreur du capteur de bord",
+"transcript": "Erreur du capteur de bord. Veuillez le vérifier et le nettoyer."
+},
+"75": {
+"name": "Filtre humide ou obstrué",
+"transcript": "Le filtre n'est peut-être pas sec ou il est obstrué."
+},
+"77": {
+"name": "Démarrer hors des tapis",
+"transcript": "Veuillez démarrer le robot sur une zone sans tapis."
+},
+"81": {
+"name": "Erreur du capteur à ultrasons",
+"transcript": "Erreur du capteur de tapis. Redémarrez le robot ou contactez le service client."
+},
+"82": {
+"name": "Démarrage de la cartographie",
+"transcript": "Démarrage de la cartographie."
+},
+"83": {
+"name": "Reprise de la cartographie",
+"transcript": "Reprise de la cartographie."
+},
+"84": {
+"name": "Cartographie terminée",
+"transcript": "Cartographie terminée."
+},
+"85": {
+"name": "Localisé : reprise de la cartographie",
+"transcript": "Localisation réussie. Reprise de la cartographie."
+},
+"86": {
+"name": "Non localisé : nouvelle cartographie",
+"transcript": "La localisation a échoué. Redémarrage de la cartographie."
+},
+"87": {
+"name": "Batterie faible : retour à la base",
+"transcript": "Batterie faible, retour à la base de recharge."
+},
+"91": {
+"name": "Réservoir d'eau propre absent",
+"transcript": "Le réservoir d'eau propre n'est pas installé. Veuillez l'installer."
+},
+"93": {
+"name": "Eau propre insuffisante",
+"transcript": "Le niveau du réservoir d'eau propre est bas. Veuillez ajouter de l'eau."
+},
+"97": {
+"name": "Sac à poussière absent",
+"transcript": "Veuillez installer le sac à poussière."
+},
+"102": {
+"name": "Sac plein ou conduit obstrué",
+"transcript": "Le sac à poussière est plein ou le conduit d'air est obstrué. Remplacez le sac ou nettoyez le conduit."
+},
+"105": {
+"name": "Démarrage du nettoyage",
+"transcript": "Démarrage du nettoyage."
+},
+"106": {
+"name": "Lavage des serpillières",
+"transcript": "Démarrage du lavage des serpillières."
+},
+"107": {
+"name": "Séchage des serpillières",
+"transcript": "Démarrage du séchage des serpillières."
+},
+"108": {
+"name": "Niveau d'eau anormal du bac de lavage",
+"transcript": "Le niveau d'eau du bac de lavage est anormal. Veuillez le nettoyer."
+},
+"109": {
+"name": "Anomalie du réservoir d'eau sale",
+"transcript": "Erreur du réservoir d'eau sale. Vérifiez qu'il est installé et vide."
+},
+"110": {
+"name": "Démarrage du vidage automatique",
+"transcript": "Démarrage du vidage automatique."
+},
+"111": {
+"name": "Serpillières absentes",
+"transcript": "Les serpillières ne sont pas installées. Veuillez les installer avant de continuer."
+},
+"112": {
+"name": "Replacer le robot sur la station de lavage",
+"transcript": "Replacez le robot sur sa station autonettoyante avant utilisation."
+},
+"113": {
+"name": "Tâche terminée",
+"transcript": "Tâche terminée. Pensez à vider le réservoir d'eau sale."
+},
+"114": {
+"name": "Serpillières installées",
+"transcript": "Serpillières installées."
+},
+"115": {
+"name": "Serpillières retirées",
+"transcript": "Serpillières retirées."
+},
+"116": {
+"name": "Sécurité enfant activée",
+"transcript": "Sécurité enfant activée, les boutons sont verrouillés."
+},
+"117": {
+"name": "Sécurité enfant désactivée",
+"transcript": "Sécurité enfant désactivée, les boutons sont déverrouillés."
+},
+"118": {
+"name": "Boutons verrouillés",
+"transcript": "Les boutons sont verrouillés. Maintenez le bouton de la base enfoncé pour les déverrouiller."
+},
+"126": {
+"name": "Démarrage du nettoyage",
+"transcript": "Démarrage du nettoyage."
+},
+"127": {
+"name": "Démarrage du nettoyage localisé",
+"transcript": "Démarrage du nettoyage localisé."
+},
+"128": {
+"name": "Démarrage du lavage localisé",
+"transcript": "Démarrage du lavage localisé."
+},
+"129": {
+"name": "Démarrage du nettoyage programmé",
+"transcript": "Démarrage du nettoyage programmé."
+},
+"130": {
+"name": "Démarrage du lavage programmé",
+"transcript": "Démarrage du lavage programmé."
+},
+"133": {
+"name": "Nettoyage des pièces sélectionnées",
+"transcript": "Nettoyage des pièces sélectionnées."
+},
+"134": {
+"name": "Lavage des pièces sélectionnées",
+"transcript": "Lavage des pièces sélectionnées."
+},
+"135": {
+"name": "Nettoyage de zone",
+"transcript": "Nettoyage de zone."
+},
+"136": {
+"name": "Lavage de zone",
+"transcript": "Lavage de zone."
+},
+"137": {
+"name": "Reprise du nettoyage",
+"transcript": "Reprise du nettoyage."
+},
+"138": {
+"name": "Reprise du lavage",
+"transcript": "Reprise du lavage."
+},
+"139": {
+"name": "Retour à la base pour autonettoyage",
+"transcript": "Retour à la base."
+},
+"140": {
+"name": "Nouvel environnement détecté",
+"transcript": "Nouvel environnement détecté, retour à la station autonettoyante."
+},
+"142": {
+"name": "Serpillière usée",
+"transcript": "La serpillière est usée. Pensez à la remplacer."
+},
+"143": {
+"name": "Nettoyage terminé",
+"transcript": "Nettoyage terminé."
+},
+"144": {
+"name": "Lavage terminé",
+"transcript": "Lavage terminé."
+},
+"145": {
+"name": "Localisé : reprise du nettoyage",
+"transcript": "Localisation réussie. Reprise du nettoyage."
+},
+"146": {
+"name": "Localisé : reprise du lavage",
+"transcript": "Localisation réussie. Reprise du lavage."
+},
+"148": {
+"name": "Retour à la base pour autonettoyage",
+"transcript": "Retour à la base pour autonettoyage."
+},
+"149": {
+"name": "Cible inaccessible : obstacle",
+"transcript": "Impossible d'atteindre la zone indiquée. Essayez de retirer les obstacles sur le trajet."
+},
+"150": {
+"name": "Cible inaccessible : zone interdite",
+"transcript": "Impossible d'atteindre la zone indiquée. Essayez de supprimer les zones interdites sur le trajet."
+},
+"151": {
+"name": "Trajet bloqué : obstacle",
+"transcript": "Trajet bloqué. Essayez de retirer les obstacles autour du robot."
+},
+"152": {
+"name": "Trajet bloqué : zone interdite",
+"transcript": "Trajet bloqué. Supprimez les zones interdites ou sortez le robot de cette zone."
+},
+"153": {
+"name": "Robot dans une zone interdite",
+"transcript": "Le robot a été détecté dans une zone interdite. Veuillez l'en sortir."
+},
+"156": {
+"name": "Support de serpillière absent",
+"transcript": "Le support de serpillière n'est pas installé."
+},
+"162": {
+"name": "Caméra activée",
+"transcript": "Caméra activée."
+},
+"163": {
+"name": "Surveillance caméra",
+"transcript": "Surveillance caméra."
+},
+"164": {
+"name": "Fin de tâche",
+"transcript": "Fin de tâche."
+},
+"166": {
+"name": "Retirer les corps étrangers de la serpillière",
+"transcript": "Veuillez retirer les corps étrangers enroulés dans la serpillière."
+},
+"169": {
+"name": "Séchage des serpillières terminé",
+"transcript": "Séchage des serpillières terminé."
+},
+"171": {
+"name": "Reconnaissance IA activée",
+"transcript": "Évitement intelligent des obstacles activé."
+},
+"172": {
+"name": "Reconnaissance IA désactivée",
+"transcript": "Évitement intelligent des obstacles désactivé."
+},
+"173": {
+"name": "Remplacer le stérilisateur à ions d'argent",
+"transcript": "Veuillez remplacer le module stérilisateur à ions d'argent."
+},
+"177": {
+"name": "Départ de la base",
+"transcript": "Le robot quitte la base."
+},
+"179": {
+"name": "Serpillière nettoyée, eau insuffisante",
+"transcript": "Serpillière nettoyée. Eau propre insuffisante : remplissez le réservoir d'eau propre et videz le réservoir d'eau sale."
+},
+"181": {
+"name": "Eau insuffisante",
+"transcript": "Eau insuffisante. Veuillez remplir le réservoir d'eau propre."
+},
+"186": {
+"name": "Vérifier le réservoir d'eau propre",
+"transcript": "Veuillez vérifier le réservoir d'eau propre."
+},
+"187": {
+"name": "Environ 5 à 10 minutes",
+"transcript": "Cela prendra environ 5 à 10 minutes."
+},
+"188": {
+"name": "Installation automatique activée",
+"transcript": "Installation automatique activée."
+},
+"200": {
+"name": "Mélodie d'extinction",
+"transcript": "[Mélodie d'extinction]"
+},
+"244": {
+"name": "Flacon de détergent installé",
+"transcript": "Flacon de détergent installé."
+},
+"255": {
+"name": "Évitement intelligent requis",
+"transcript": "Désolé, cette tâche nécessite l'évitement intelligent des obstacles."
+},
+"257": {
+"name": "Sortie de la surveillance caméra",
+"transcript": "Sortie de la surveillance caméra."
+},
+"258": {
+"name": "Patrouille démarrée",
+"transcript": "Patrouille autolocalisée démarrée."
+},
+"259": {
+"name": "En route vers la position cible",
+"transcript": "Localisé. En route vers la position indiquée."
+},
+"260": {
+"name": "Patrouille en cours",
+"transcript": "Reprise de la patrouille autolocalisée."
+},
+"261": {
+"name": "Poursuite vers la position cible",
+"transcript": "Localisé. Poursuite vers la position indiquée."
+},
+"262": {
+"name": "Échec de l'autolocalisation",
+"transcript": "Échec de l'autolocalisation."
+},
+"266": {
+"name": "Remplacer le détergent",
+"transcript": "Remplacer le détergent."
+},
+"267": {
+"name": "Nettoyer les capteurs",
+"transcript": "Nettoyer les capteurs."
+},
+"269": {
+"name": "Réessayer après la tâche en cours",
+"transcript": "Veuillez réessayer une fois la tâche en cours terminée."
+},
+"274": {
+"name": "Son de notification",
+"transcript": "[Son de notification]"
+},
+"280": {
+"name": "Démarrage du nettoyage personnalisé",
+"transcript": "Démarrage du nettoyage personnalisé."
+},
+"281": {
+"name": "Vidage automatique en cours",
+"transcript": "Le robot se vide automatiquement. Réessayez plus tard."
+},
+"282": {
+"name": "Lavage de la serpillière en cours",
+"transcript": "Le robot lave sa serpillière. Réessayez plus tard."
+},
+"283": {
+"name": "Robot hors de la base",
+"transcript": "Le robot n'est pas sur sa base. Réessayez plus tard."
+},
+"293": {
+"name": "Recherche activée",
+"transcript": "Recherche activée."
+},
+"294": {
+"name": "Recherche désactivée",
+"transcript": "Recherche désactivée."
+},
+"296": {
+"name": "Erreur du réservoir d'eau sale",
+"transcript": "Erreur du réservoir d'eau sale. Vérifiez s'il est plein."
+},
+"297": {
+"name": "Détergent installé : remise à zéro",
+"transcript": "Flacon de détergent installé. S'il est neuf, remettez le compteur à zéro dans l'application."
+},
+"298": {
+"name": "Nettoyage du bac de lavage",
+"transcript": "Nettoyage du bac de lavage."
+},
+"299": {
+"name": "Module de dosage du détergent installé",
+"transcript": "Flacon de détergent et module de dosage automatique installés."
+},
+"311": {
+"name": "Serpillières retirées",
+"transcript": "Serpillières retirées."
+},
+"315": {
+"name": "Serpillière absente de la station",
+"transcript": "La serpillière n'est pas dans la station. Placez-la dans la station puis réessayez, ou installez-la à la main."
+},
+"316": {
+"name": "Serpillière déjà dans la station",
+"transcript": "La serpillière est déjà dans la station."
+},
+"318": {
+"name": "Serpillière nettoyée",
+"transcript": "Serpillière nettoyée."
+},
+"319": {
+"name": "Retrait des serpillières impossible",
+"transcript": "Les serpillières n'ont pas pu être retirées. Retirez-les à la main."
+},
+"320": {
+"name": "Installation des serpillières impossible",
+"transcript": "Les serpillières n'ont pas pu être installées. Installez-les à la main."
+},
+"321": {
+"name": "Lavage intensif des taches",
+"transcript": "Démarrage du lavage intensif des taches."
+},
+"329": {
+"name": "Autotest démarré",
+"transcript": "Démarrage de l'autotest, ne m'éloignez pas de la station."
+},
+"330": {
+"name": "Autotest en cours",
+"transcript": "Réessayez une fois l'autotest terminé."
+},
+"331": {
+"name": "Autotest : aucune erreur",
+"transcript": "Aucune erreur détectée, vous pouvez utiliser l'appareil en toute sécurité."
+},
+"332": {
+"name": "Autotest : erreur détectée",
+"transcript": "Une erreur a été détectée, consultez l'application pour les détails."
+},
+"341": {
+"name": "Je t'ai trouvé",
+"transcript": "Je t'ai trouvé, je commence à te suivre. Dis « arrête de me suivre » pour terminer."
+},
+"342": {
+"name": "Où es-tu ?",
+"transcript": "Où es-tu ? Place-toi environ 1,5 mètre devant moi."
+},
+"343": {
+"name": "Je t'ai perdu",
+"transcript": "Je t'ai perdu, tu marches trop vite. Place-toi environ 1,5 mètre devant moi et attends que je te retrouve."
+},
+"349": {
+"name": "Vérifier que la station est allumée",
+"transcript": "Vérifiez que la station est allumée, puis placez le robot dessus pour lancer l'activation."
+},
+"350": {
+"name": "Activation de la station",
+"transcript": "Activation de la station."
+},
+"351": {
+"name": "Station activée",
+"transcript": "Station activée."
+},
+"352": {
+"name": "Échec de l'activation de la station",
+"transcript": "L'activation de la station a échoué. Ouvrez l'application pour voir la solution."
+},
+"355": {
+"name": "Eau propre faible",
+"transcript": "Niveau d'eau bas, veuillez remplir le réservoir d'eau propre."
+},
+"356": {
+"name": "Défaut toujours présent",
+"transcript": "Le défaut persiste, la tâche programmée a été annulée."
+},
+"360": {
+"name": "Vidange du réservoir du robot",
+"transcript": "Vidange du réservoir du robot."
+},
+"361": {
+"name": "Vidange du réservoir du robot terminée",
+"transcript": "Vidange du réservoir du robot terminée."
+},
+"362": {
+"name": "Serpillière absente : aspiration seule",
+"transcript": "La serpillière n'est pas en place, le robot effectuera une aspiration à la place."
+},
+"363": {
+"name": "Aspiration terminée, début du lavage",
+"transcript": "Aspiration terminée. Le robot va commencer le lavage."
+},
+"364": {
+"name": "Réglage du code d'activation vidéo",
+"transcript": "Démarrage du réglage du code d'activation vidéo."
+},
+"365": {
+"name": "Vidéo en direct désactivée",
+"transcript": "La fonction de vidéo en direct est désactivée."
+},
+"371": {
+"name": "Retirer le bac de lavage",
+"transcript": "Veuillez retirer le bac de lavage."
+},
+"372": {
+"name": "Écoulement de l'eau propre",
+"transcript": "Écoulement de l'eau propre."
+},
+"373": {
+"name": "Fin de l'écoulement d'eau propre",
+"transcript": "L'écoulement d'eau propre est terminé. Attendez 10 secondes que la saleté soit ramollie, puis nettoyez la station."
+},
+"374": {
+"name": "Nettoyer le fond de la station",
+"transcript": "Nettoyez le fond de la station avec une brosse ou un chiffon dans les 20 secondes. Les déchets seront ensuite pompés automatiquement."
+},
+"375": {
+"name": "Pousser les saletés vers la pompe",
+"transcript": "Poussez les saletés vers l'orifice de pompage, le pompage dure 30 secondes."
+},
+"376": {
+"name": "Pompage terminé",
+"transcript": "Pompage terminé. Nettoyez le bac de lavage séparément puis remettez-le en place."
+},
+"377": {
+"name": "Configuration réseau impossible",
+"transcript": "Impossible de configurer le réseau. Contactez le service client."
+},
+"378": {
+"name": "Mot de passe Wi-Fi incorrect",
+"transcript": "Mot de passe incorrect, connexion au réseau impossible. Reconfigurez le réseau."
+},
+"379": {
+"name": "Wi-Fi introuvable, utiliser le 2,4 GHz",
+"transcript": "Réseau sans fil introuvable. Connectez-vous à la bande 2,4 GHz et rapprochez le robot du routeur avant de réessayer."
+},
+"380": {
+"name": "Adresse IP non obtenue",
+"transcript": "Impossible d'obtenir une adresse IP, vérifiez les réglages du routeur."
+},
+"381": {
+"name": "Serveur EMQ injoignable",
+"transcript": "Impossible de se connecter au serveur EMQ. Contactez le service client."
+},
+"382": {
+"name": "Connexion au réseau impossible",
+"transcript": "Impossible de se connecter au réseau. Vérifiez qu'il fonctionne normalement."
+},
+"383": {
+"name": "Configuration réseau impossible",
+"transcript": "Impossible de configurer le réseau. Contactez le service client."
+},
+"384": {
+"name": "Plus d'eau dans l'arrivée automatique",
+"transcript": "Pas d'eau dans le réservoir d'eau propre ni dans le dispositif de vidange de l'arrivée d'eau automatique."
+},
+"385": {
+"name": "Connexion au réseau",
+"transcript": "Connexion au réseau."
+},
+"388": {
+"name": "Robot en zone restreinte",
+"transcript": "Zone restreinte : déplacez le robot dans une zone autorisée et réessayez."
+},
+"389": {
+"name": "Abaissement du LDS impossible",
+"transcript": "Impossible d'abaisser le capteur laser. Vérifiez qu'il n'est pas coincé."
+},
+"390": {
+"name": "Levée du LDS impossible",
+"transcript": "Impossible de relever le capteur laser. Vérifiez qu'il n'est pas coincé."
+},
+"391": {
+"name": "Placer dans un espace dégagé",
+"transcript": "Placez-moi dans un espace dégagé avant de lancer la tâche."
+},
+"396": {
+"name": "Vidange du module d'eau",
+"transcript": "Démarrage de la vidange du module d'alimentation et d'évacuation d'eau, environ 3 minutes."
+},
+"397": {
+"name": "Vidange haute et basse terminée",
+"transcript": "Vidange haute et basse terminée."
+},
+"398": {
+"name": "Cartographie terminée : retour à la base",
+"transcript": "Cartographie terminée. Vérifiez la carte dans l'application et ramenez-moi à la base."
+},
+"399": {
+"name": "Test terminé : retour à la base",
+"transcript": "Tâche terminée. Ramenez-moi à la base."
+},
+"400": {
+"name": "Nettoyage de la station terminé",
+"transcript": "Nettoyage de la station terminé."
+},
+"401": {
+"name": "Ramener à la station pour autonettoyage",
+"transcript": "Ramenez-moi à la base et lancez l'autonettoyage."
+},
+"424": {
+"name": "Échec de la localisation",
+"transcript": "Localisation impossible, placez-moi dans un espace dégagé et relancez la tâche."
+},
+"426": {
+"name": "J'ai glissé et je suis coincé",
+"transcript": "J'ai glissé et je suis coincé, je continue d'essayer de me dégager."
+},
+"433": {
+"name": "Démarrage du nettoyage supplémentaire",
+"transcript": "Démarrage du nettoyage supplémentaire."
+},
+"434": {
+"name": "Nettoyage supplémentaire terminé",
+"transcript": "Nettoyage supplémentaire terminé, reprise du nettoyage initial."
+},
+"435": {
+"name": "Sortie de la zone actuelle",
+"transcript": "Sortie de la zone actuelle."
+},
+"436": {
+"name": "Son d'alerte",
+"transcript": "[Son d'alerte]"
+},
+"437": {
+"name": "Problème résolu : reprise",
+"transcript": "Problème résolu, appuyez sur démarrer pour reprendre le nettoyage."
+},
+"438": {
+"name": "Pare-chocs coincé",
+"transcript": "Le pare-chocs est coincé. Tapotez-le doucement pour qu'il revienne en place."
+},
+"439": {
+"name": "Couvercle du LDS coincé",
+"transcript": "Le couvercle du capteur laser est coincé, tapotez-le doucement pour qu'il revienne en place."
+},
+"440": {
+"name": "Roues dans le vide",
+"transcript": "Les roues du robot sont suspendues, placez-le dans un espace dégagé et relancez la tâche."
+},
+"441": {
+"name": "Brosse principale emmêlée",
+"transcript": "Quelque chose est enroulé autour de la brosse principale, retirez-la et nettoyez-la avant de la remettre."
+},
+"442": {
+"name": "Brosse latérale emmêlée",
+"transcript": "Quelque chose est enroulé autour de la brosse latérale, retirez-la et nettoyez-la avant de la remettre."
+},
+"443": {
+"name": "Roues principales emmêlées",
+"transcript": "Quelque chose est enroulé autour des roues principales, veuillez les nettoyer."
+},
+"444": {
+"name": "Placer le robot dans un espace dégagé",
+"transcript": "Placez le robot dans un espace dégagé avant de lancer la tâche."
+},
+"445": {
+"name": "Serpillière tombée",
+"transcript": "La serpillière est tombée, cherchez-la autour du robot et remettez-la en place."
+},
+"446": {
+"name": "Support de serpillière emmêlé",
+"transcript": "Quelque chose est enroulé autour du support de serpillière, retirez-le et nettoyez-le."
+},
+"447": {
+"name": "Station hors tension",
+"transcript": "La station n'est pas alimentée, vérifiez-la et remettez le robot en charge."
+},
+"448": {
+"name": "Réservoir d'eau sale absent",
+"transcript": "Le réservoir d'eau sale n'est pas installé, mettez-le en place avant de lancer la tâche."
+},
+"449": {
+"name": "Démarrage impossible sur un tapis",
+"transcript": "Impossible de démarrer sur un tapis. Placez le robot sur un sol dur et relancez la tâche."
+},
+"450": {
+"name": "Démarrage impossible en zone interdite",
+"transcript": "Impossible de démarrer dans une zone interdite. Déplacez le robot et relancez la tâche."
+},
+"451": {
+"name": "Démarrage impossible en zone privée",
+"transcript": "Impossible de démarrer dans une zone privée. Déplacez le robot et relancez la tâche."
+},
+"452": {
+"name": "Erreur du capteur de tapis",
+"transcript": "Erreur du capteur de tapis : retournez le robot, essuyez le trou rond blanc dessous et redémarrez-le."
+},
+"453": {
+"name": "Erreur du capteur de bord",
+"transcript": "Erreur du capteur de bord : essuyez le côté droit du robot et relancez la tâche."
+},
+"454": {
+"name": "Eau propre insuffisante",
+"transcript": "Le réservoir d'eau propre ne contient pas assez d'eau. Remplissez-le rapidement."
+},
+"455": {
+"name": "Réservoir d'eau propre mal placé",
+"transcript": "Le réservoir d'eau propre n'est pas en place. Veuillez l'installer correctement."
+},
+"456": {
+"name": "Réservoir d'eau sale plein ou absent",
+"transcript": "Le réservoir d'eau sale est plein ou absent, veuillez le vérifier."
+},
+"457": {
+"name": "Réservoir d'eau sale plein ou absent",
+"transcript": "Le réservoir d'eau sale est plein ou absent, veuillez le vérifier."
+},
+"458": {
+"name": "Sac à poussière mal placé",
+"transcript": "Le sac à poussière n'est pas en place, vérifiez-le et installez-le correctement."
+},
+"459": {
+"name": "Support de serpillière mal placé",
+"transcript": "Le support de serpillière n'est pas en place, vérifiez-le et installez-le correctement."
+},
+"460": {
+"name": "Désodorisant usé",
+"transcript": "Le désodorisant du réservoir d'eau sale est usé, remplacez-le rapidement."
+},
+"463": {
+"name": "Bienvenue dans votre robot Dreame",
+"transcript": "Bienvenue dans votre robot aspirateur Dreame. Pour plus de fonctions, ouvrez le capot, scannez le QR code et téléchargez l'application Dreamehome."
+},
+"464": {
+"name": "Placer sur la station avant la tâche",
+"transcript": "Pour réussir les tâches suivantes, replacez le robot sur la station avant de démarrer. L'installation est réussie quand vous entendez « Début de la charge »."
+},
+"465": {
+"name": "Placer sur la station avant la tâche",
+"transcript": "Replacez le robot sur la station avant de démarrer. L'installation est réussie quand vous entendez « Début de la charge »."
+},
+"466": {
+"name": "Préparer les pièces avant le nettoyage",
+"transcript": "Ouvrez les portes des pièces à nettoyer et rangez les objets au sol."
+},
+"467": {
+"name": "Placer sur la station avant la cartographie",
+"transcript": "Replacez le robot sur la station, puis relancez la cartographie."
+},
+"468": {
+"name": "Confirmer la carte dans l'application",
+"transcript": "Veuillez confirmer les détails de la carte dans l'application."
+},
+"478": {
+"name": "Reprise après lavage de la serpillière",
+"transcript": "Après le lavage de la serpillière, le robot reprend le nettoyage là où il s'était arrêté."
+},
+"479": {
+"name": "Relancer la tâche",
+"transcript": "Tout est prêt, relancez votre tâche."
+},
+"480": {
+"name": "Ajouter de l'eau pour la prochaine tâche",
+"transcript": "Mettez suffisamment d'eau dans le réservoir d'eau propre pour les prochaines tâches."
+},
+"488": {
+"name": "Son de notification",
+"transcript": "[Son de notification]"
+},
+"516": {
+"name": "Recherche de l'animal",
+"transcript": "Démarrage de la recherche de votre animal."
+},
+"517": {
+"name": "Animal trouvé",
+"transcript": "Votre animal a été trouvé, retour à la base."
+},
+"518": {
+"name": "Animal introuvable : retour à la base",
+"transcript": "Animal introuvable, retour à la base pour recharge."
+},
+"632": {
+"name": "Changement de langue",
+"transcript": "Changement de langue en cours, environ 30 secondes."
+},
+"636": {
+"name": "Lavage auto de la serpillière sale",
+"transcript": "La serpillière est sale, ramenez le robot à la base pour un lavage automatique."
+},
+"638": {
+"name": "Reprise du vidage automatique",
+"transcript": "Reprise du vidage automatique."
+},
+"639": {
+"name": "Installer le filtre du bac de lavage",
+"transcript": "Veuillez installer le filtre du bac de lavage."
+},
+"640": {
+"name": "Échec du changement de langue",
+"transcript": "Le changement de langue a échoué. Veuillez réinitialiser."
+},
+"658": {
+"name": "Anticalcaire expiré",
+"transcript": "L'anticalcaire a expiré, remplacez-le rapidement."
+},
+"661": {
+"name": "Nettoyage du bac de lavage",
+"transcript": "Démarrage du nettoyage du bac de lavage, environ 45 à 60 secondes."
+},
+"662": {
+"name": "Production d'eau électrolysée",
+"transcript": "Préparation d'eau électrolysée pour nettoyer la serpillière."
+},
+"663": {
+"name": "Niveau d'eau anormal du bac de lavage",
+"transcript": "Niveau d'eau anormal détecté dans le bac de lavage. Nettoyez son filtre et son conduit, puis relancez la tâche."
+},
+"673": {
+"name": "Pieds rétractables emmêlés",
+"transcript": "Quelque chose est peut-être enroulé autour des pieds rétractables. Nettoyez-les avant de lancer une tâche."
+},
+"677": {
+"name": "Cible inaccessible : seuil ou zone",
+"transcript": "Impossible d'atteindre la zone indiquée. Supprimez les zones interdites ou seuils infranchissables sur le trajet."
+},
+"678": {
+"name": "Trajet bloqué : seuil ou zone",
+"transcript": "Trajet de nettoyage bloqué : supprimez les zones interdites ou seuils infranchissables sur la carte, ou sortez le robot de la zone."
+},
+"679": {
+"name": "Robot bloqué sur un seuil ou en zone interdite",
+"transcript": "Le robot est bloqué dans une zone interdite ou sur un seuil infranchissable. Sortez-le de cette zone."
+},
+"681": {
+"name": "D'accord, je reprends le nettoyage",
+"transcript": "D'accord, je reprends le nettoyage."
+}
+}

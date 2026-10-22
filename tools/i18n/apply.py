@@ -19,6 +19,9 @@ for old, new in (
     ('<option value="TR">Turc</option><option value="EN">English</option>', '<option value="">Chargement…</option>'),
     ("(lang==='TR'?'Turc':'Anglais')", "$('voiceLanguage').selectedOptions[0].textContent"),
     ("pack.id==='TR'?'Turc':pack.id==='EN'?'English':pack.name", "window.duiLanguageName(pack)"),
+    # Éditeur d'annonces : indiquer la règle de pare-feu (ufw) quand le robot ne télécharge rien.
+    ("vérifie l’isolation entre appareils sur le réseau.'}", "vérifie l’isolation entre appareils sur le réseau.'+(transfer.firewall?' Pare-feu actif : exécute « '+transfer.firewall+' » dans un terminal.':'')}"),
+    ("showToast(result.changed_count+' modification(s) : transfert lancé');", "showToast(result.firewall?'Pare-feu actif : exécute « '+result.firewall+' »':result.changed_count+' modification(s) : transfert lancé');"),
     ('</body>', '<script src="/assets/voice-packs.js"></script>\n<script src="/assets/extras.js"></script>\n</body>'),
 ):
     if s.count(old) != 1:

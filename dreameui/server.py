@@ -12,6 +12,7 @@ from .api import AppAPI
 
 RESOURCES = Path(__file__).parent / "resources"
 MAX_BODY = 1_048_576
+MAX_AUDIO_BODY = 13 * 1_048_576  # fichier audio envoyé tel quel à /api/voice/editor/replace
 
 
 class LocalServer:
@@ -81,17 +82,20 @@ class LocalServer:
                 if not secrets.compare_digest(self.headers.get("X-CSRF-Token", ""), server.token):
                     return self._json(403, {"error": "Jeton de sécurité invalide."})
                 length = int(self.headers.get("Content-Length") or 0)
-                if length > MAX_BODY:
+                binary_upload = self.path.split("?", 1)[0] == "/api/voice/editor/replace"
+                if length > (MAX_AUDIO_BODY if binary_upload else MAX_BODY):
                     return self._json(413, {"error": "Requête trop volumineuse."})
                 raw = self.rfile.read(length) if length else b""
+                if binary_upload:
+                    return self._api("POST", {}, raw)
                 try:
                     body = json.loads(raw) if raw else {}
                 except ValueError:
                     body = {}
                 self._api("POST", body if isinstance(body, dict) else {})
 
-            def _api(self, method: str, body: dict):
-                response = server.api.handle(method, self.path, body)
+            def _api(self, method: str, body: dict, binary: bytes | None = None):
+                response = server.api.handle(method, self.path, body, binary)
                 if response.data is not None:
                     return self._send(response.status, response.data, response.content_type)
                 self._json(response.status, response.body)
