@@ -1,0 +1,16 @@
+[project]
+name = "dreameui"
+version = "0.1.0"
+description = "Contrôle des robots aspirateurs Dreame sous Linux (port de dreamehub)"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["requests", "cryptography", "PyGObject"]
+
+[project.optional-dependencies]
+qt = ["PyQt6", "PyQt6-WebEngine"]
+
+[project.scripts]
+dreameui = "dreameui.app:main"
+
+[tool.setuptools.package-data]
+dreameui = ["resources/**/*", "data/*.json"]
